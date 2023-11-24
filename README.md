@@ -1,3 +1,3 @@
 # zeink-architect
 
-link to web :
+link to web : https://muhismailmks.github.io/zeink-architect/#
