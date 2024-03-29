@@ -27,8 +27,7 @@ window.addEventListener('scroll', function(){
         nav.classList.add('active')
     }  else {
         nav.classList.remove('active')
-    }
-    console.log(view);
+    } 
 })
 
 // //  scrollReveal Effect
