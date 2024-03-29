@@ -5,9 +5,9 @@ const menu = document.querySelector('.menu')
 const Btndown = document.querySelectorAll('.btn-down')
 
 
-   menu.addEventListener('click', () => {
+  menu.addEventListener('click', () => {
      document.querySelector('ul').classList.toggle('active')
-   })
+  })
 
  Btndown.forEach(down => {
     down.addEventListener('click', function() {
