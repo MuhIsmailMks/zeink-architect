@@ -18,8 +18,6 @@ const Btndown = document.querySelectorAll('.btn-down')
     input.classList.toggle('active')
     search.classList.toggle('active')
   })
-
-
    
 window.addEventListener('scroll', function(){
     let view = window.scrollY;
@@ -30,7 +28,7 @@ window.addEventListener('scroll', function(){
     } 
 })
 
-// //  scrollReveal Effect
+//  scrollReveal Effect
     ScrollReveal({
     reset : false,
     distance: '100px',
