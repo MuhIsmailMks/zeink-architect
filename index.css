@@ -407,7 +407,7 @@ nav.active .menu {
   align-items: center;
 }
 
-.content3 h1 {
+.content3 h3 {
   position: absolute;
   font-size: 2em;
   top: 40px;
@@ -669,18 +669,17 @@ footer .colFooter {
   width: 40%;
 }
 
-footer .colFooter > div {
-  align-items: center;
+footer .colFooter > div { 
+  justify-content: start;
   flex-direction: column;
   position: relative;
-  height: 200px;
+  height: auto;
   padding: 20px;
   margin: 30px;
-  font-size: 1.3em;
+  font-size: 1.3em; 
 }
-.colFooter .help {
-  padding-top: 60px;
-}
+ 
+
 footer .colFooter div p {
   font-family: "Crimson Text", serif; 
   width: 120px;
@@ -688,6 +687,10 @@ footer .colFooter div p {
 
 footer .colFooter div p:hover {
   color: grey;
+}
+
+footer .colFooter h2{ 
+  margin-bottom: 1rem;
 }
 footer .hr {
   position: absolute;
@@ -848,7 +851,7 @@ footer .media {
   }
 
   /* content3 */ 
-  .content3 h1{
+  .content3 h3{
     width: 100%;
     left: 0;
     text-align: center;
@@ -1099,7 +1102,7 @@ footer .media {
     width: 100%; 
   } 
 
-  .content3 h1{ 
+  .content3 h3{ 
       font-size: 1.3rem;
     }
 
